@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<?php 
+<?php ///deny
 $sumber = $_FILES['userfile']['tmp_name'];
 $string = str_replace(' ', '_', $_FILES['userfile']['name']);
 $target = 'upload/'.$string;
